@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.bg-blue {
+  background: #0c325a;
+}
+.bg-green {
+  background: #7cbb02;
+}
+.bg-grey {
+  background: #dedede;
+}
+
+#site-header {
+  height: 550px;
+  width: 100%;
+}
+#site-main {
+  height: 1000px;
+}
+#site-footer {
+  height: 150px;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+/* /general settings */
+
+/* utility class */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.float-left {
+  float: left;
+}
+.float-right {
+  float: right;
+}
+/* header */
+
+/* nav */
+ul {
+  list-style-type: none;;
+}
+li{
+  text-transform: uppercase;
+  color: white;
+  display: inline-block;
+  padding: 0px 10px;
+  line-height: 70px;
+  font-size: 10px;
+}
+.nav {
+  width: 80%;
+  height: 80px;
+  margin: auto;
+  margin-top: 12px;
+}
+.logo {
+  background-image: url(../img/logo.svg);
+  background-repeat: no-repeat;
+  width: 120px;
+  height: 80px;
+  margin-top: 10px;
+
+}
+.left-menu li:hover {
+  color: orange;
+  cursor: pointer;
+}
+/* tutor login and plan */
+#login, #plan{
+  line-height: 20px;
+  border-radius: 3px;
+  margin: 0 10px;
+  padding: 5px 10px;
+}
+#login:hover {
+  background: white;
+  color: black;
+  cursor: pointer;
+}
+#login {
+  border: 1px solid white;
+}
+#plan:hover {
+  background: orange;
+  cursor: pointer;
+}
+#tutor:hover {
+  color: orange;
+  cursor: pointer;
+}
+/* /tutor login and plan */
+/* /nav */
+.banner {
+  background-image: url(../img/banner_header.png);
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+/* /header */
+
+/* main */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-main{
+  float: left;
+  width: 33.33%
+}
+#formation-pic {
+  background-image: url(../img/profile.svg);
+  height: 284.5px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
