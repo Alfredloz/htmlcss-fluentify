@@ -140,6 +140,21 @@ a:hover {
 /* /header */
 
 /* main */
+/* main text */
+.info-main {
+  height: 15%;
+}
+.text-info-main {
+  transform: translateY(50%);
+}
+.info-main > * {
+  text-align: center;
+}
+h4 {
+  padding: 10px;
+  color: grey;
+}
+/* /main text */
 .container:after {
   content: "";
   display: table;
@@ -149,9 +164,23 @@ a:hover {
   float: left;
   width: 33.33%
 }
-#formation-pic {
-  background-image: url(../img/profile.svg);
-  height: 284.5px;
+.profile-pic {
+  height: 200px;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  padding: 10px;
+}
+#formation {
+  background-image: url(../img/profile.svg);
+}
+#computer {
+  background-image: url(../img/mountain.svg);
+}
+#doc {
+  background-image: url(../img/doc.svg);
+
+}
+.profile-pic > h3 {
+  text-align: center;
 }
